@@ -43,7 +43,7 @@ That's it. The widget fetches data from the SmartCardFYI API and renders with fu
 | `data-smartcardfyi` | spec, compare, features, glossary, faq, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "card-types" | — | Entity slug from the SmartCardFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | technical, modern | technical | Widget design style |
+| `data-styleVariant` | technical, modern | technical | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Smart Card Types…" | Search box placeholder |
 
