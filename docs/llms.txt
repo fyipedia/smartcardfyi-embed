@@ -1,21 +1,51 @@
 # SmartCardFYI Embed Widget
 
-> Embeddable SmartCardFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Smart cards, EMV, APDU. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/smartcardfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/smartcardfyi-embed@1/dist/embed.min.js"></script>
+<div data-smartcardfyi="standard" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- spec: `data-smartcardfyi="spec"`
+- compare: `data-smartcardfyi="compare"`
+- glossary: `data-smartcardfyi="glossary"`
+- faq: `data-smartcardfyi="faq"`
+- guide: `data-smartcardfyi="guide"`
+- search: `data-smartcardfyi="search"`
+- standard (interactive): `data-smartcardfyi="standard"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-smartcardfyi="standard" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/smartcardfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://smartcardfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://smartcardfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://smartcardfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://smartcardfyi.com
 - Widget docs: https://widget.smartcardfyi.com
-- npm: https://www.npmjs.com/package/smartcardfyi-embed
+- API documentation: https://smartcardfyi.com/developers/
+- npm package: https://www.npmjs.com/package/smartcardfyi-embed
 - GitHub: https://github.com/fyipedia/smartcardfyi-embed
-- API: https://smartcardfyi.com/developers/
 
-## Tag FYI Widget Family
+## Tag FYI Widget Network
 
 - [BarcodeFYI Widget](https://widget.barcodefyi.com)
 - [QRCodeFYI Widget](https://widget.qrcodefyi.com)
