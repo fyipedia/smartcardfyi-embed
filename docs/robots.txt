@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# SmartCardFYI Embed Widget
+# Main site: https://smartcardfyi.com
+# Widget docs: https://widget.smartcardfyi.com
+# npm: https://www.npmjs.com/package/smartcardfyi-embed
