@@ -1,0 +1,28 @@
+# SmartCardFYI Embed Widget
+
+> Embeddable SmartCardFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/smartcardfyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://smartcardfyi.com
+- Widget docs: https://widget.smartcardfyi.com
+- npm: https://www.npmjs.com/package/smartcardfyi-embed
+- GitHub: https://github.com/fyipedia/smartcardfyi-embed
+- API: https://smartcardfyi.com/developers/
+
+## Tag FYI Widget Family
+
+- [BarcodeFYI Widget](https://widget.barcodefyi.com)
+- [QRCodeFYI Widget](https://widget.qrcodefyi.com)
+- [NFCFYI Widget](https://widget.nfcfyi.com)
+- [BLEFYI Widget](https://widget.blefyi.com)
+- [RFIDFYI Widget](https://widget.rfidfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
